@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pollster</string>
+    <string name="user_id">User ID</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot your password?</string>
+</resources>

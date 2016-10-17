@@ -1,6 +1,7 @@
-package com.example.fellyrusli.pollster;
+package com.example.fellyrusli.pollster.Activity;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -11,6 +12,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.fellyrusli.pollster.Activity.ApplicationController;
+import com.example.fellyrusli.pollster.R;
 
 /**
  * Created by fellyrusli on 9/8/2016.
@@ -47,6 +50,8 @@ public class Login extends Activity {
             });
             queue.add(stringRequest);
         //}
+        Intent intent = new Intent(this, ApplicationController.class);
+        startActivity(intent);
     }
 
     public void setLoginPressed(boolean loginPressed) {

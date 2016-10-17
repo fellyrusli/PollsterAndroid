@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="0dp"
+        android:text="Your question: " />
+
+    <EditText
+        android:id="@+id/student_question"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/text_box" />
+
+    <Button
+        android:id="@+id/submit_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/lost_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help! I'm lost"
+            android:textSize="18sp"/>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/lost_text"
+            android:layout_toRightOf="@+id/lost_text"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/toggle_instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"/>
+
+</LinearLayout>

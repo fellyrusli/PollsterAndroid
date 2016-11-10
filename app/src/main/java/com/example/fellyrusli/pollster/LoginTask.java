@@ -1,8 +1,6 @@
-package com.example.fellyrusli.pollster.Task;
+package com.example.fellyrusli.pollster;
 
 import android.os.AsyncTask;
-
-import com.example.fellyrusli.pollster.Activity.Login;
 
 /**
  * Created by fellyrusli on 9/27/2016.
@@ -23,6 +21,5 @@ public class LoginTask extends AsyncTask<Void, Void, Boolean> {
     @Override
     protected void onPostExecute(Boolean verified) {
         context.setLoginPressed(false);
-
     }
 }

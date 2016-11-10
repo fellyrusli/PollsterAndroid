@@ -8,6 +8,16 @@
     <string name="open_drawer">Open</string>
     <string name="close_drawer">Close</string>
 
+    <!-- web socket to answering question -->
+    <string name="url">http://guarded-oasis-14876.herokuapp.com</string>
+    <string name="test">/test</string>
+    <string name="getclass">/classes?student_id=</string>
+    <string name="getquestion">/questions?class_id=</string>
+    <string name="connect">/connect</string>
+    <string name="getanswer">/questions</string>
+    <string name="postanswer">/answerquestion</string>
+    <string name="postlost">/imlost</string>
+
     <!-- Nav Drawer Menu Items -->
     <string-array name="nav_drawer_items">
         <item>Home</item>

@@ -8,6 +8,13 @@ import android.os.SystemClock;
 import com.example.fellyrusli.pollster.Activity.ApplicationController;
 import com.example.fellyrusli.pollster.R;
 
+import org.apache.http.client.methods.HttpGetHC4;
+import org.apache.http.client.methods.HttpRequestBaseHC4;
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.http.impl.client.HttpClients;
+
+import java.net.URI;
+
 /**
  * Created by fellyrusli on 10/15/2016.
  */

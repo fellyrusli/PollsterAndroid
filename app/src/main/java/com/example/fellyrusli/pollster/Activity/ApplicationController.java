@@ -23,7 +23,10 @@ import com.example.fellyrusli.pollster.R;
 import com.example.fellyrusli.pollster.Task.LoadHome;
 import com.example.fellyrusli.pollster.Task.LoadQuestion;
 import com.example.fellyrusli.pollster.Task.LoadSession;
+import com.github.nkzawa.socketio.client.IO;
+import com.github.nkzawa.socketio.client.Socket;
 
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 
 /**
